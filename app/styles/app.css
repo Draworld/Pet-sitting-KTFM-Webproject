@@ -68,7 +68,6 @@ p {
  */
 
 .container {
-  max-width: 1024px;
   min-height: 100vh;
   background: #f9f9f9;
   margin: 0 auto;
@@ -113,6 +112,7 @@ p {
 
 .menu .links {
   padding: 0 21px;
+  display: inline;
 }
 
 .menu .links a {
@@ -496,7 +496,6 @@ section .vosPet{
   height: 200px;
   grid-gap: 10px;
   grid-template: 400px / auto auto auto auto;
-
 }
 
 .grid-VA{
@@ -505,6 +504,7 @@ section .vosPet{
   border-radius: 25px;
   text-align: center;
   position: relative;
+  border: 5px solid #230242;
 }
 
 .grid-GA{
@@ -513,16 +513,19 @@ section .vosPet{
   border-radius: 25px;
   text-align: center;
   position: relative;
+  border: 5px solid #e46855;
 }
 
 .grid-item{
-  background-color: lightgrey;
+  background-color: darkcyan;
   grid-column: 1 / 5;
   grid-row: 2 ;
   height: 200px;
   border-radius: 25px;
   text-align: center;
   position: relative;
+  border: 5px solid lightcyan;
+  display: inline;
 }
 
 .votrePet{
@@ -530,6 +533,7 @@ section .vosPet{
   width: 400px;
   position: center;
   padding-top: 25%;
+
 }
 .lovingPet{
   height: 300px;
@@ -558,5 +562,40 @@ h3.textesec2{
 h3.textesec3{
   color: black;
   padding-top: 5%;
-  padding-left: 33%;
+  padding-left: 40%;
+  text-align: center
+}
+
+img.avatar{
+  height: 70px;
+  width: 60px;
+  top: 0;
+}
+img.option{
+  height: 60px;
+  width: 60px;
+  top: 0;
+}
+img.message{
+  height: 200px;
+  width: 200px;
+  right:200px;
+}
+img.droit{
+  float:right;
+}
+img.gauche{
+  transform: scaleX(-1);
+  float:left;
+}
+
+
+.avatar{
+  top:2px;
+  float: right;
+  border-radius: 50%;
+}
+.menu-option{
+  top:5px;
+  float: right;
 }
