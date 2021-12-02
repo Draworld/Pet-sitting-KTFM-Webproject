@@ -11,7 +11,7 @@ Router.map(function () {
   this.route('contact', { path: '/getting-in-touch' });
   this.route('faire-gardez-vos-annimaux', { path: '/vos-annimaux' });
   this.route('faire-gardez-vos-annimaux-vide', { path: '/vos-annimaux-vide' });
-  this.route('creation-annimal', { path: '/animal' });
+  this.route('list-petsitter', { path: '/animal' });
   this.route('login');
   this.route('signup');
 });
