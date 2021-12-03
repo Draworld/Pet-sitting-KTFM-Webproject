@@ -68,7 +68,6 @@ p {
  */
 
 .container {
-  max-width: 1024px;
   min-height: 100vh;
   background: #f9f9f9;
   margin: 0 auto;
@@ -113,6 +112,7 @@ p {
 
 .menu .links {
   padding: 0 21px;
+  display: inline;
 }
 
 .menu .links a {
@@ -488,7 +488,7 @@ p {
 .logo{
   height: 60px;
   width: 90px;
-  top: 0px;
+  top: 0;
 }
 section .vosPet{
   width: 50%;
@@ -499,15 +499,15 @@ section .vosPet{
   height: 200px;
   grid-gap: 10px;
   grid-template: 400px / auto auto auto auto;
-
 }
 
 .grid-VA{
-  background-color: #954ee1;
+  background-color: lightsalmon;
   grid-column: 1 / 3;
   border-radius: 25px;
   text-align: center;
   position: relative;
+  border: 5px solid #e46855;
 }
 
 .grid-GA{
@@ -516,29 +516,33 @@ section .vosPet{
   border-radius: 25px;
   text-align: center;
   position: relative;
+  border: 5px solid #e46855;
 }
 
 .grid-item{
-  background-color: lightgrey;
+  background-color: lightsalmon;
   grid-column: 1 / 5;
   grid-row: 2 ;
   height: 200px;
   border-radius: 25px;
   text-align: center;
   position: relative;
+  border: 5px solid #e46855;
+  display: inline;
 }
 
 .votrePet{
   height: 175px;
   width: 400px;
   position: center;
-  padding-top: 25%;
+  margin-bottom: 20px;
+
 }
 .lovingPet{
   height: 300px;
   width: 300px;
   position: center;
-  padding-top: 20%;
+  margin-bottom: 15%;
 }
 h3.texteInGrid{
   position: absolute;
@@ -551,7 +555,7 @@ h3.texteInGrid{
   padding-top: 15%;
 }
 h3.textesec1{
-  color: #230242;
+  color: #3b1102;
 }
 
 h3.textesec2{
@@ -559,11 +563,92 @@ h3.textesec2{
   padding-top: 19%;
 }
 h3.textesec3{
-  color: black;
+  color: #3b1102;
   padding-top: 5%;
-  padding-left: 33%;
+  padding-left: 40%;
+  text-align: center
 }
 
+img.avatar{
+  height: 70px;
+  width: 60px;
+  top: 0;
+}
+img.option{
+  height: 60px;
+  width: 60px;
+  top: 0;
+}
+img.message{
+  height: 200px;
+  width: 200px;
+  right:200px;
+}
+img.droit{
+  float:right;
+}
+img.gauche{
+  transform: scaleX(-1);
+  float:left;
+}
+
+
+.avatar{
+  top:2px;
+  float: right;
+  border-radius: 50%;
+}
+.menu-option{
+  top:5px;
+  float: right;
+}
+
+
+section.VosAnnimaux{
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  background-color: lightsalmon;
+  border-radius: 25px;
+  border: 5px solid #e46855;
+  text-align: center;
+  min-height: 400px;
+}
+.A1{
+  margin-left: 20px;
+  margin-bottom: 5px;
+  width: 85%;
+  height: 90px;
+  background-color: lightsalmon;
+  border-radius: 25px;
+  border: 5px solid #e46855;
+}
+
+.rajouter{
+  height:90px;
+  width:90px;
+}
+
+h3.textesec4{
+  font-size: 30px;
+  color: #3b1102;
+  text-align: center;
+}
+
+img.chien{
+  margin-top: auto;
+  margin-left: auto;
+  height:80px;
+  width:auto;
+  border-radius: 25px;
+  border: 6px solid #e46855;
+}
+
+p.info{
+  font-size: 30px;
+  color: #3b1102;
+  text-align: center;
+}
 /* login*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
