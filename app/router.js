@@ -14,4 +14,5 @@ Router.map(function () {
   this.route('creation-annimal', { path: '/animal' });
   this.route('login');
   this.route('signup');
+  this.route('list-petsitter');
 });
