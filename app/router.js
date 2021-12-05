@@ -15,4 +15,7 @@ Router.map(function () {
   this.route('login');
   this.route('signup');
   this.route('list-petsitter');
+  this.route('messagerie');
+  this.route('acceuil1', { path: '/acceuil/yehuda' });
+  this.route('acceuil2', { path: '/acceuil/lucile' });
 });
