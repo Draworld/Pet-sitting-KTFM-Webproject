@@ -1,57 +1,41 @@
+<Entetevide>
+  <Jumbo>
+     <title> Registration Form </title>
 
-<Jumbo>
-   <title> Registration Form </title>
-
-      <div class="wrapper">
-         <div class="title-text">
-            <div class="title login">
-               Login Form
-            </div>
-            <div class="title signup">
-               Signup Form
-            </div>
-         </div>
-         <div class="form-container">
-
-
-            <div class="form-inner">
-               <form action="#" class="login">
-                  <div class="fields">
-                     <input type="text" placeholder="Email Address" required>
-                  </div>
-                  <div class="fields">
-                     <input type="password" placeholder="Password" required>
-                  </div>
-                  <div class="pass-link">
-                     <a href="#">Forgot password?</a>
-                  </div>
-                  <div class="fields btn">
-                     <div class="btn-layer"></div>
-                     <input type="submit" value="Login">
-                  </div>
-                  <div class="signup-link">
-                     Not a member? <a href="">Signup now</a>
-                  </div>
-               </form>
-               <form action="#" class="signup">
-                  <div class="fields">
-                     <input type="text" placeholder="Email Address" required>
-                  </div>
-                  <div class="fields">
-                     <input type="password" placeholder="Password" required>
-                  </div>
-                  <div class="fields">
-                     <input type="password" placeholder="Confirm password" required>
-                  </div>
-                  <div class="fields btn">
-                     <div class="btn-layer"></div>
-                     <input type="submit" value="Signup">
-                  </div>
-               </form>
-            </div>
-         </div>
-      </div>
+        <div class="wrapper">
+           <div class="title-text">
+              <div class="title login">
+                 Login Form
+              </div>
+              <div class="title signup">
+                 Signup Form
+              </div>
+           </div>
+           <div class="form-container">
 
 
-</Jumbo>
+              <div class="form-inner">
+                 <form action="#" class="login">
+                    <div class="fields">
+                       <input type="text" placeholder="Email Address" required>
+                    </div>
+                    <div class="fields">
+                       <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="pass-link">
+                       <a href="#">Forgot password?</a>
+                    </div>
+                    <div class="fields btn">
+                       <LinkTo @route="acceuil2" class="div submit btn-submit" >login</LinkTo>
+                    </div>
+                    <div class="signup-link">
+                       Not a member? <a href="signup">Signup now</a>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </div>
 
+
+  </Jumbo>
+</Entetevide>
