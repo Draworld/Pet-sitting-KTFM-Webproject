@@ -933,7 +933,6 @@ linkto.submit{
 .whatever{
   background-color: lightsalmon;
   display: inline-block;
-  min-width:;
 }
 
 #checkboxes input[type=checkbox]{
