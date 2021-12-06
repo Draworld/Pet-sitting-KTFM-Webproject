@@ -1,31 +1,35 @@
 <Entete>
 {{yield}}
 <!-- nouveau layout pour la page de choix-->
-<div class="contenue">
+<section class="VosAnnimaux">
+  <div class="contenue">
+<h2 >Quel annimal voulez vous faire gardez ?</h2>
   <div class="form"></div>
-  <div class="votreAnimal"></div>
+
+  <div class="votreAnimal checkbox">
+    <div class="grid-Annimaux" id="checkboxes">
+        <input type="checkbox" name="rGroup" value="1" id="r1">
+        <label class="A1 whatever " for="r1">
+              <h3 class="textesec4">
+              <img class="chien gauche" src="../assets/images/labrador.jpg" alt="annimal"/>
+              <LinkTo @route="faire-gardez-vos-annimaux-vide" ><img class="chien droit" src="../assets/images/edit-rb.png" alt="edit"/></LinkTo>
+               Rufus
+              </h3>
+              <p class="info">  CHIEN Male  age : 7 ans   </p>
+        </label>
+    </div>
+    <LinkTo @route="faire-gardez-vos-annimaux" class="div">
+        <div class="grid-Annimaux A1">
+          <h3 class="textesec4">
+          <img class="rajouter gauche" src="../assets/images/plus-rb.png" alt="annimal"/>
+           rajouter un annimal
+          </h3>
+        </div>
+      </LinkTo>
+  </div>
+
   <div class="choixDate"></div>
 </div>
-<section class="VosAnnimaux">
-  <h2 class=>Quel annimal voulez vous faire gardez ?</h2>
-  <LinkTo @route="faire-gardez-vos-annimaux" class="div">
-      <div class="grid-Annimaux A1">
-        <h3 class="textesec4">
-        <img class="chien gauche" src="../assets/images/labrador.jpg" alt="annimal"/>
-        <LinkTo @route="faire-gardez-vos-annimaux-vide" ><img class="chien droit" src="../assets/images/edit-rb.png" alt="edit"/></LinkTo>
-         Rufus
-        </h3>
-        <p class="info">  CHIEN Male  age : 7 ans   </p>
-      </div>
-  </LinkTo>
-  <LinkTo @route="faire-gardez-vos-annimaux" class="div">
-    <div class="grid-Annimaux A1">
-      <h3 class="textesec4">
-      <img class="rajouter gauche" src="../assets/images/plus-rb.png" alt="annimal"/>
-       rajouter un annimal
-      </h3>
-    </div>
-  </LinkTo>
 </section>
 {{yield}}
 </Entete>
