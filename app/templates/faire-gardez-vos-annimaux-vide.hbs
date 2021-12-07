@@ -1,15 +1,29 @@
 <Entete>
 {{yield}}
+<!-- nouveau layout pour la page de choix-->
 <section class="VosAnnimaux">
-  <h2 class=>Quel annimal voulez vous faire gardez ?</h2>
-  <LinkTo @route="faire-gardez-vos-annimaux" class="div">
-    <div class="grid-Annimaux A1">
-      <h3 class="textesec4">
-      <img class="rajouter gauche" src="../assets/images/plus-rb.png" alt="annimal"/>
-       rajouter un annimal
-      </h3>
-    </div>
-  </LinkTo>
+  <div class="contenue">
+<h2 >Quel annimal voulez vous faire gardez ?</h2>
+  <div class="form choiceplus">
+    <Datechoice/>
+    <Selectnombrejour/>
+    <LinkTo class="btn notrebouton" @route="list-petsitter">rechercher</LinkTo>
+
+  </div>
+
+  <div class="votreAnimal checkbox">
+    <LinkTo @route="faire-gardez-vos-annimaux" class="div">
+        <div class="grid-Annimaux A1">
+          <h3 class="textesec4">
+          <img class="rajouter gauche" src="../assets/images/plus-rb.png" alt="annimal"/>
+           rajouter un annimal
+          </h3>
+        </div>
+      </LinkTo>
+  </div>
+
+
+</div>
 </section>
 {{yield}}
 </Entete>

@@ -4,7 +4,12 @@
 <section class="VosAnnimaux">
   <div class="contenue">
 <h2 >Quel annimal voulez vous faire gardez ?</h2>
-  <div class="form"></div>
+  <div class="form choiceplus">
+    <Datechoice/>
+    <Selectnombrejour/>
+    <LinkTo class="btn notrebouton" @route="list-petsitter">rechercher</LinkTo>
+
+  </div>
 
   <div class="votreAnimal checkbox">
     <div class="grid-Annimaux" id="checkboxes">
@@ -28,7 +33,7 @@
       </LinkTo>
   </div>
 
-  <div class="choixDate"></div>
+
 </div>
 </section>
 {{yield}}
