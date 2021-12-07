@@ -1048,3 +1048,33 @@ footer {
   transition: all 0.5s;
   cursor: pointer;
 }
+
+.centrer{
+  margin-left:40%;
+}
+
+img.profil{
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+  left: 3px;
+}
+.contact{
+  border : 4px double #e46855;
+  background-color: white;
+  margin-left:5px;
+  text-align: left;
+}
+
+.ContactInfo{
+  display:inline-flex;
+  left:0;
+  width:auto;
+  min-width: 850px;
+}
+h3.name{
+  width:450px;
+  text-align: center;
+}
+
