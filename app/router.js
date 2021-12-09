@@ -19,4 +19,7 @@ Router.map(function () {
   this.route('messagerie-juju');
   this.route('acceuil1', { path: '/acceuil/yehuda' });
   this.route('acceuil2', { path: '/acceuil/lucile' });
+  this.route('petowner');
+  this.route('petsitter');
+  this.route('profil');
 });
