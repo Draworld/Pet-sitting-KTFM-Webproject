@@ -1157,3 +1157,9 @@ h3.name{
 .profilM .avatarM{
   align-content: flex-start;
 }
+
+#dateOfBirth{
+  margin-left: 0;
+ margin-top: 0;
+ transform:none;
+}
