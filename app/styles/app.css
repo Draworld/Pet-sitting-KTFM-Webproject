@@ -1156,4 +1156,9 @@ h3.name{
 }
 .profilM .avatarM{
   align-content: flex-start;
+  float: left;
+}
+
+.labelM{
+  font-size: 1.8rem;
 }
