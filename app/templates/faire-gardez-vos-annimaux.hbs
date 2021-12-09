@@ -5,6 +5,8 @@
   <div class="contenue">
 <h2 >Quel annimal voulez vous faire gardez ?</h2>
   <div class="form choiceplus">
+    <label for="ville"> dans quel ville ?</label>
+    <input type="text" id="ville"/>
     <Datechoice/>
     <Selectnombrejour/>
     <LinkTo class="btn notrebouton" @route="list-petsitter">rechercher</LinkTo>
@@ -17,13 +19,13 @@
         <label class="A1 whatever " for="r1">
               <h3 class="textesec4">
               <img class="chien gauche" src="../assets/images/labrador.jpg" alt="annimal"/>
-              <LinkTo @route="faire-gardez-vos-annimaux-vide" ><img class="chien droit" src="../assets/images/edit-rb.png" alt="edit"/></LinkTo>
+              <LinkTo @route="rufus" ><img class="chien droit" src="../assets/images/edit-rb.png" alt="edit"/></LinkTo>
                Rufus
               </h3>
               <p class="info">  CHIEN Male  age : 7 ans   </p>
         </label>
     </div>
-    <LinkTo @route="faire-gardez-vos-annimaux" class="div">
+    <LinkTo @route="petowner" class="div">
         <div class="grid-Annimaux A1">
           <h3 class="textesec4">
           <img class="rajouter gauche" src="../assets/images/plus-rb.png" alt="annimal"/>

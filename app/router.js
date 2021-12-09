@@ -23,4 +23,5 @@ Router.map(function () {
   this.route('petsitter');
   this.route('profil');
   this.route('profil2');
+  this.route('rufus');
 });
