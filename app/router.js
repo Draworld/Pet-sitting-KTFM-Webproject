@@ -3,7 +3,7 @@ import config from 'super-rentals/config/environment';
 
 export default class Router extends EmberRouter {
   location = config.locationType;
-  rootURL = config.rootURL;
+  rotURL = config.rootURL;
 }
 
 Router.map(function () {
@@ -17,8 +17,9 @@ Router.map(function () {
   this.route('list-petsitter');
   this.route('messagerie');
   this.route('messagerie-juju');
-  this.route('acceuil1', { path: '/acceuil/yehuda' });
-  this.route('acceuil2', { path: '/acceuil/lucile' });
+
+  this.route('acceuil1', { path: '/acceuil/lucile' });
+  this.route('acceuil2', { path: '/acceuil/yehuda' });
   this.route('petowner');
   this.route('petsitter');
   this.route('profil');
