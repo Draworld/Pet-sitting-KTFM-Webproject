@@ -3,13 +3,13 @@
 <!-- nouveau layout pour la page de choix-->
 <section class="VosAnnimaux">
   <div class="contenue">
-<h2 >Quel annimal voulez vous faire gardez ?</h2>
+<h2 >For what animal are you looking for a petsitter ?</h2>
   <div class="form choiceplus">
-    <label for="ville"> dans quel ville ?</label>
+    <label for="ville"> In which city?</label>
     <input type="text" id="ville"/>
     <Datechoice/>
     <Selectnombrejour/>
-    <LinkTo class="btn notrebouton" @route="list-petsitter">rechercher</LinkTo>
+    <LinkTo class="btn notrebouton" @route="list-petsitter">search</LinkTo>
 
   </div>
 
@@ -22,14 +22,14 @@
               <LinkTo @route="rufus" ><img class="chien droit" src="../assets/images/edit-rb.png" alt="edit"/></LinkTo>
                Rufus
               </h3>
-              <p class="info">  CHIEN Male  age : 7 ans   </p>
+              <p class="info">  Dog  age : 7 years   </p>
         </label>
     </div>
     <LinkTo @route="petowner" class="div">
         <div class="grid-Annimaux A1">
           <h3 class="textesec4">
           <img class="rajouter gauche" src="../assets/images/plus-rb.png" alt="annimal"/>
-           rajouter un annimal
+           add an animal
           </h3>
         </div>
       </LinkTo>
