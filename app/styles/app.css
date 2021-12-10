@@ -909,7 +909,7 @@ linkto.submit{
   background-color: #e46855;
   border-radius: 5px;
 }
-.btn-submit :hover{
+.btn-submit:hover{
   font-size: 32px;
   color:#ffffff;
 }
@@ -1008,7 +1008,7 @@ footer {
   width:25%;
   height:25px;
   margin-left:5%;
-  font-size: 0.7em;
+  font-size: 0.5em;
 }
 .inline{
   display: flex;
@@ -1182,4 +1182,17 @@ h3.name{
   font-size:18px;
   font-family: 'Poppins', sans-serif;
   font-weight:bold;
+}
+
+.btn2-submit{
+  font-size: 25px;
+  color:#ffffff;
+  position: absolute;
+  width:150px;
+  background-color: #e46855;
+  border-radius: 5px;
+}
+.btn2-submit:hover{
+  font-size: 32px;
+  color:#ffffff;
 }
