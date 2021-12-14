@@ -458,6 +458,15 @@ p {
   position: relative;
   top: -25px;
 }
+.tomster2 {
+  background: url(../assets/images/vos_annimaux-rb.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 400px;
+  position: relative;
+  top: -25px;
+}
 
 .screen-reader{
   position: absolute;
@@ -1203,4 +1212,10 @@ h3.name{
   background-color: #e46855;
   border-radius: 5px;
   text-align: center;
+}
+.form-label2 {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0 5px 5px 0;
+  text-align: right;
 }

@@ -24,4 +24,5 @@ Router.map(function () {
   this.route('profil');
   this.route('profil2');
   this.route('rufus');
+  this.route('profil2petsitter', { path: '/profil/lucile' });
 });
